@@ -1,0 +1,340 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/* .atd-buttons-wrap-simple, .atd-buttons-wrap-variation {
+  margin-top: 30px;
+} */
+/*.atd-upload-product-design, .btn-choose.tpl, .atd-customize-product ,.atd-add-multiple-product*/
+.atd-upload-product-design, .btn-choose.tpl, .atd-add-multiple-product
+{
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block !important;
+    box-sizing: border-box;
+    display: inline-block !important;
+}
+
+.btn-choose.tpl{
+    background: #cdc81e;
+    border-bottom: 1px solid #ACA91A;
+}
+
+.btn-choose.custom{
+    background: #008099;
+    border-bottom: 1px solid #00728A;
+}
+
+.btn-choose:hover, .btn-choose.tpl
+{
+    color: white;
+}
+
+/*.btn-choose , .grid-pad .atd-button, .kad-btn-primary, .atd-customize-product, .atd-upload-product-design,.atd-add-multiple-product*/
+.btn-choose , .grid-pad .atd-button, .kad-btn-primary, .atd-upload-product-design,.atd-add-multiple-product {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    /*height: 44px;*/
+    letter-spacing: 1px;
+    min-width: 40px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-transform: uppercase;
+    width: 131px;
+    background: rgb(104, 184, 196);
+    border:0;
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal bold 14px/14px effra, sans-serif;
+    margin: 0px 10px 0px 0px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 14px;
+    transition: all 0.15s ease 0s;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.atd-tpl-title
+{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: #8A8A8A;
+}
+
+.atd-tpl-title
+{
+    margin-bottom: 0;
+    border-top: 2px solid #9dd8d9;
+}
+
+#atd-templates-list .col-1-4
+{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+#atd-templates-list img
+{
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+#atd-templates-list .grid .col-1-4:not(:last-of-type)
+{
+    border-right: none;
+}
+
+.atd-uploaded-design-container
+{
+    position: relative;
+    width: 100%;
+}
+
+.custom-uploader .drop{
+    border: 1px dotted lightgray;
+    padding: 20px;
+    text-align: center;
+    color:#d9e1e7;
+}
+
+.custom-uploader ul
+{
+    list-style: none;
+}
+
+.custom-upload-form .drop input{
+    display: none;
+}
+
+.custom-upload-form .drop label  {
+
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    background: url('../images/Uploadicon.png')  no-repeat center center transparent;
+    cursor:pointer;
+}
+.custom-upload-form .drop a
+{
+    text-transform: uppercase;
+}
+
+.acd-progress-bar
+{
+    width: 100%;
+    height: 10px;
+    display: inline-block;
+    border: 1px solid #d0d0d0;
+    background: white;
+}
+
+.acd-progress-bar .acd-progress
+{
+    background: #4f71b9;
+    height: 100%;
+}
+
+/*Hides upload meta value on the user account page*/
+.variation-atd_data_upl
+{
+    display: none !important;
+}
+
+.atd-custom-design:not(:first-of-type)
+{
+    margin-left: 5px;
+}
+[class*='atd-col-'], [class*='atd-col-'] * {
+    box-sizing: border-box;
+}
+.atd-modal img,.atd-modal img{width: 100%;margin: 0 auto; width:100%;}
+.atd-modal .omodal-body div{background-position: center;background-repeat: no-repeat;background-size: contain;}
+.atd-is-customizable.atd-hide-cart-button form.cart .single_add_to_cart_button,
+body.atd-is-customizable.atd-hide-cart-button form.cart .single_add_to_cart_button,
+.atd-is-customizable.atd-hide-cart-button .add_to_cart_button,
+.atd-is-customizable.atd-hide-cart-button form.cart .quantity,
+.atd-is-customizable.atd-hide-cart-button .add_to_cart_button
+{
+    display: none;
+}
+.atd-buttons-wrap-variation
+{
+    display: none;
+}
+.atd-pagination ul.page-numbers{
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+.atd-pagination ul.page-numbers li,ul.page-numbers li .page-numbers{
+    display:inline-block;
+}
+.atd-pagination ul.page-numbers li .page-numbers:not(.dots){
+    border: 1px solid #ccc;
+}
+.atd-pagination ul.page-numbers li .page-numbers {
+    padding: 10px;
+}
+
+.atd-pagination ul.page-numbers span.current{
+    color:gray;
+}
+
+@media (min-width: 768px){
+    .omodal-dialog{
+        width: 90% !important;
+    }
+}
+
+#atd-modal .omodal-body> div, .atd_part .omodal-body>div
+{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.omodal-body{
+    padding: 0px !important;
+}
+
+/* Begin Styling Modal For Preview Design Cart */
+
+.atd-preview-box-prev-cart-des {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 99999;
+    transform: translate(-50%, -50%) scale(0.8);
+    -webkit-transform: translate(-50%, -50%) scale(0.8);
+    -moz-transform: translate(-50%, -50%) scale(0.8);
+    -ms-transform: translate(-50%, -50%) scale(0.8);
+    -o-transform: translate(-50%, -50%) scale(0.8);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.atd-preview-box-prev-cart-des.atd-show,
+.atd-shadow-prev-cart-des.atd-show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.atd-preview-box-prev-cart-des.atd-show {
+    transform: translate(-50%, -50%) scale(1);
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -moz-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    -o-transform: translate(-50%, -50%) scale(1);
+}
+
+.atd-icon-prev-cart-cross {
+    position: absolute;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 600;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.atd-icon-prev-cart-cross:hover{
+    background: #f5f5f5;
+}
+
+.atd-icon-prev-cart-cross:active {
+    background: #e8e8e9 !important;
+}
+
+.atd-preview-prev-cart-des-item {
+    height: 100%;
+    width: 100%;
+}
+
+.atd-preview-title {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.atd-preview-prev-cart-des-item header {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.atd-preview-prev-cart-des-item img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: contain;
+}
+
+.atd-preview-prev-cart-des-img-container {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.atd-preview-prev-cart-des-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.atd-shadow-prev-cart-des {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 9999;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+/* End Styling Modal For Preview Design Cart */
